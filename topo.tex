@@ -1,0 +1,78 @@
+\documentclass{book}
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{mathtools}
+\usepackage{xhfill}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{esint}
+\usepackage{hyperref}
+\usepackage[most]{tcolorbox}
+\usepackage[chapter]{algorithm}
+\usepackage{algpseudocode}
+
+
+\graphicspath{ {./imgs/} }
+\usepackage[
+  a4paper,
+  textwidth=175mm,
+  textheight=225mm,
+  heightrounded,
+]{geometry}
+
+\pagestyle{fancy}
+\lhead{}
+\chead{\thechapter. \chaptername}
+\rhead{}
+\lfoot{}
+\cfoot{\thepage}
+\rfoot{}
+
+\author{Manuel Hinz}
+
+\title{Einführung in die Geometrie und Topologie (SS 23)}
+
+\newtheorem{theorem}[algorithm]{Satz}
+\newtheorem{corollary}[algorithm]{Korollar}
+\newtheorem{lemma}[algorithm]{Lemma}
+\newtheorem{definition}[algorithm]{Definition}
+\newtheorem{remark}[algorithm]{Bemerkung}
+\newtheorem*{mremark}{Eingefügte Bemerkung}
+\newtheorem{example}[algorithm]{Beispiel}
+\newtheorem*{mdefinition}{Eingefügte Definition}
+\newtheorem*{mexample}{Eingefügtes Beispiel}
+
+
+
+\def\C{\mathbb{C}}
+\def\R{\mathbb{R}}
+\def\N{\mathbb{N}}
+\def\Z{\mathbb{Z}}
+\def\E{\mathbb{E}}
+\def\V{\mathbb{V}}
+\def\rang{\text{rang}}
+\def\cond{\text{cond}}
+\def\eps{\text{eps}}
+\raggedright
+
+\let\cleardoublepage=\clearpage
+
+\begin{document}
+
+    \maketitle
+
+    \tableofcontents
+
+    \section*{Vorwort}
+
+            Diese Mitschrift von der Vorlesung Einführung in die Grundlagen der Geometrie und Topologie(Lück, SS 2023) 
+            wird von mir neben der Vorlesung geschrieben und ist dementsprechend Fehleranfällig. Fehler gerne an 
+            mh@mssh.dev! 
+
+\end{document}
